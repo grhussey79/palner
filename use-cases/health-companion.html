@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palner — Health Companion</title>
+    <title>Palner — Health</title>
     <style>
         :root {
             --terracotta: #C9663C;
@@ -166,6 +166,16 @@
         .btn:hover {
             box-shadow: 0 6px 16px rgba(var(--sienna-rgb), 0.25);
         }
+
+        .note {
+            margin-top: 2rem;
+            padding: 1.25rem 1.5rem;
+            border-left: 3px solid var(--sienna);
+            background: rgba(var(--sienna-rgb), 0.06);
+            font-size: 0.95rem;
+        }
+        .note strong { color: var(--sienna); }
+        .note p { margin-bottom: 0; }
     </style>
 </head>
 <body>
@@ -176,25 +186,32 @@
 
     <div class="container">
         <div class="hero-icon">💊</div>
-        <h1>Health <span class="accent">Companion</span></h1>
-        <p class="subtitle">An AI that tracks your health over months — and actually notices the patterns you'd miss.</p>
+        <h1>Health, over <span class="accent">months</span></h1>
+        <p class="subtitle">A mind that keeps track of your health over months — and notices the patterns you'd miss.</p>
 
-        <h2>The Problem</h2>
-        <p>Health isn't a snapshot — it's a trajectory. But every health app treats yesterday like it doesn't exist. You log symptoms today, and tomorrow the app doesn't remember what it saw. Patterns that only emerge over months — sleep decline, recurring symptoms, energy shifts — are invisible to tools with no memory. And putting your health data on someone else's server is asking for trouble.</p>
+        <h2>The problem</h2>
+        <p>Health isn't a snapshot, it's a trajectory. But most health apps treat yesterday like it never happened. Patterns that only show over months — sleep slipping, a symptom that keeps coming back, energy shifting — are invisible to a tool with no memory. And your health data on someone else's server is a risk you shouldn't have to take.</p>
 
-        <h2>What Your Palner Does Differently</h2>
+        <h2>What a synthetic does differently</h2>
         <ul class="feature-list">
-            <li>Tracks symptoms, sleep, energy, and mood over weeks and months</li>
+            <li>Keeps track of symptoms, sleep, energy and mood over weeks and months</li>
             <li>Connects patterns across time — "you mentioned this three weeks ago too"</li>
-            <li>Remembers your medical history, medications, and what your doctor said</li>
-            <li>Notices trends before they become problems — and surfaces them gently</li>
-            <li>All health data stays on your machine — encrypted, local, yours</li>
+            <li>Remembers your medications and what your doctor said</li>
+            <li>Brings up a trend gently, instead of waiting for you to notice</li>
+            <li>It all stays on your machine: no cloud storage, no one else's database.</li>
         </ul>
 
+        <h2>Because it's one mind</h2>
+        <p>Health doesn't live in a separate box. A synthetic that also knows your work stress, your family and your sleep can see that the headaches started the same week as the new job — a connection a single-purpose health app would never make.</p>
+
+        <div class="note">
+            <p><strong>What it isn't.</strong> It isn't a doctor or a medical device, and it doesn't diagnose. It helps you notice and remember, so you can bring better information to the people who treat you.</p>
+        </div>
+
         <div class="cta">
-            <h3>This is just one configuration.</h3>
-            <p>One idea at heart: an AI that remembers you.</p>
-            <a href="../index.html" class="btn">See other use cases</a>
+            <h3>One synthetic. Many roles.</h3>
+            <p>Not a separate app for every need. One mind that remembers all of it, together, on your own machine.</p>
+            <a href="../index.html#uses" class="btn">See what else it can be</a>
         </div>
     </div>
 
